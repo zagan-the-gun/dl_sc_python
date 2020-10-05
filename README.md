@@ -52,8 +52,8 @@ $ vi likelinks.txt
 プログラムファイルを書き換える
 コメントアウトだけで無く、手間だけどコードの上下も切り替える
 ```
-"""
 #htmlの時はコレ使う
+"""
 fname = 'like_list.html'
 like_list_html = BeautifulSoup(open(fname), 'html.parser')
 all_count = len(like_list_html.find_all('li', class_='soundList__item'))
