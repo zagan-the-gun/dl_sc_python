@@ -11,7 +11,7 @@ $ pip install -r requirements.txt
 $ mkdir likes
 ```
 
-### htmlからの自動ダウンロード
+### htmlから自動ダウンロードする場合
 https://soundcloud.com/[他人または自分のユーザ名]/likes
 ページを開き htmlソースをコピー
 一番下までスクロールしてからコピーしよう
@@ -21,7 +21,7 @@ https://soundcloud.com/[他人または自分のユーザ名]/likes
 $ vi like_list.html
 ```
 
-### URLリストからの自動ダウンロード
+### URLリストから自動ダウンロードする場合
 指定のファイル名でURLのリストを作る
 
 ```
